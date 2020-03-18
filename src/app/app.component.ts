@@ -3,6 +3,7 @@ import { Observable } from 'rxjs';
 import { Subscription } from 'rxjs';
 import 'rxjs/add/observable/interval';
 
+
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -12,6 +13,7 @@ export class AppComponent implements OnInit, OnDestroy {
   isAuth = false;
   secondes: number;
   counterSubscription: Subscription;
+  appareilService;
 
   ngOnInit() {
     const counter = Observable.interval(1000);

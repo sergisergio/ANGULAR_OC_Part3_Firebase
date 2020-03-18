@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import { FormBuilder, FormGroup, FormArray, Validators } from '@angular/forms';
 import { UserService } from '../services/user.service';
 import { Router } from '@angular/router';
 import { User } from '../models/User.model';
@@ -32,7 +32,7 @@ export class NewUserComponent implements OnInit {
   }
 
   onSubmitForm() {
-    const formValue = this.userForm.value,
+    const formValue = this.userForm.value;
     const newUser = new User(
       formValue['firstName'],
       formValue['lastName'],
