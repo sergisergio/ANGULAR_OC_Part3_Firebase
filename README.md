@@ -2,7 +2,7 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.4.
 
-![image](https://raw.githubusercontent.com/sergisergio/ANGULAR_mon-projet/master/projet.png?token=AFABXJ253GHJP3GYJE3RL2S6PPETU)
+![image](https://raw.githubusercontent.com/sergisergio/ANGULAR_Part3_OC/master/projet.png?token=AFABXJ53PKTA4L5QG7NVKC26PR73Q)
 
 ## Development server
 
